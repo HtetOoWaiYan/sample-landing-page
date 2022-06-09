@@ -1,0 +1,14 @@
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+.container {
+	width: 1256px;
+	margin: auto;
+}
+.button {
+	width: 153px;
+	height: 54px !important;
+}

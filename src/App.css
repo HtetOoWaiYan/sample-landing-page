@@ -1,1 +1,5 @@
 @import '~antd/dist/antd.css';
+
+.app {
+	padding: 0 92px 0 92px;
+}

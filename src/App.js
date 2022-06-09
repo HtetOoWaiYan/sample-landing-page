@@ -1,10 +1,10 @@
 import React from 'react'
-import { Button } from 'antd'
+import Header from './components/Header/Header'
 import './App.css'
 
 const App = () => (
-	<div className='App'>
-		<Button type='primary'>Button</Button>
+	<div className='app'>
+		<Header />
 	</div>
 )
 
