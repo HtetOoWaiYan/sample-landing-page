@@ -1,0 +1,56 @@
+.section {
+	padding-top: 55px;
+	padding-bottom: 100px;
+	background: radial-gradient(159.51% 159.51% at 50% -28.45%, #D5CFFA 0%, #BFB5FF 100%);
+}
+
+.content {
+	/* overflow: hidden; */
+	/* position: relative; */
+}
+
+.heading, .subheading {
+	text-align: center;
+}
+.heading {
+	color: #22075E;
+	font-size: 38px;
+	line-height: 46px;
+	margin-bottom: 20px;
+	opacity: 85%;
+}
+.subheading {
+	color: #391085;
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 61px;
+	opacity: 75%;
+	text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.3);
+}
+
+.book_list_shadow {
+	position: relative;
+	overflow: hidden;
+}
+.shadow_left, .shadow_right {
+	position: absolute;
+	top: -20%;
+}
+.shadow_left {
+	left: -7%;
+}
+.shadow_right {
+	right: -7%;
+}
+
+.book_list {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+.book_card {
+	flex: 0 0 auto; /* flex-grow flex-shrink flex-basis */
+	width: 215px;
+	margin-right: 30px !important;
+	background: none !important;
+}

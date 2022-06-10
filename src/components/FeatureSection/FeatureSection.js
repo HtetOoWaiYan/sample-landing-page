@@ -9,7 +9,7 @@ const FeatureSection = () => {
 				<div className={styles.content}>
 					<div className={styles.content_group}>
 						<img
-							src='img/mockup/player-min.png'
+							src='img/mockup/player-min.jpg'
 							alt='screenshot of audio player'
 							className={styles.content_group_image}
 						/>
@@ -26,7 +26,7 @@ const FeatureSection = () => {
 							<img src='img/pattern/dash.svg' />
 						</div>
 						<img
-							src='img/mockup/homepage-min.png'
+							src='img/mockup/homepage-min.jpg'
 							alt='screenshot of app homepage'
 							className={styles.content_group_image}
 						/>
