@@ -5,7 +5,7 @@ import styles from './HeroSection.module.css'
 
 const HeroSection = () => {
 	return (
-		<section className={`section ${styles.hero_section}`}>
+		<section className={`section ${styles.section}`}>
 			<Header />
 			<div className='container'>
 				<div className={styles.content}>
