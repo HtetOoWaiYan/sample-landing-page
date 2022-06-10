@@ -4,11 +4,6 @@
 	background: radial-gradient(159.51% 159.51% at 50% -28.45%, #D5CFFA 0%, #BFB5FF 100%);
 }
 
-.content {
-	/* overflow: hidden; */
-	/* position: relative; */
-}
-
 .heading, .subheading {
 	text-align: center;
 }

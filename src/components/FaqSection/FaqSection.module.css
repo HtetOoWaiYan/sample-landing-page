@@ -1,0 +1,32 @@
+.section {
+	padding-top: 110px;
+	padding-bottom: 105px;
+}
+
+.heading {
+	text-align: center;
+	color: #262626;
+	font-size: 38px;
+	line-height: 46px;
+	margin-bottom: 60px;
+}
+
+.collapse {
+	margin: auto !important;
+	max-width: 582px;
+}
+
+.collapse [class="ant-collapse-header"] {
+	font-size: 18px !important;
+}
+.collapse [class="ant-collapse-expand-icon"] {
+	color: #9254DE;
+}
+.collapse [class="ant-collapse-expand-icon"] span {
+	font-size: 14px !important;
+}
+
+.paragraph {
+	font-size: 16px;
+	margin-bottom: 0;
+}
