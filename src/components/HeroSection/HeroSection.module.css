@@ -1,12 +1,7 @@
-.section {
+.hero_section {
 	background: radial-gradient(128.23% 128.23% at 50% -28.23%, #EDE4F2 0%, #D5CFFA 73.65%, #BFB5FF 100%);
-	padding: 0 92px 150px 92px;
+	padding-bottom: 150px;
 	overflow: hidden;
-}
-
-.container {
-	max-width: 1256px;
-	margin: auto;
 }
 
 .content {

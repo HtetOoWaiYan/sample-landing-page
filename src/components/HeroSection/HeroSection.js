@@ -5,9 +5,9 @@ import styles from './HeroSection.module.css'
 
 const HeroSection = () => {
 	return (
-		<section className={styles.section}>
+		<section className={`section ${styles.hero_section}`}>
 			<Header />
-			<div className={styles.container}>
+			<div className='container'>
 				<div className={styles.content}>
 					<div className={styles.content_text}>
 						<h1 className={styles.heading}>Modern audiobook experience</h1>
