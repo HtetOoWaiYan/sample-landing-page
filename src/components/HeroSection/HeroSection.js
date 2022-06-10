@@ -21,6 +21,7 @@ const HeroSection = () => {
 							<Button
 								type='primary'
 								size='large'
+								ghost
 								className={styles.button}
 							>Join Waitlist</Button>
 						</form>

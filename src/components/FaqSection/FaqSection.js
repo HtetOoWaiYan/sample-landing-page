@@ -28,19 +28,11 @@ const FaqSection = () => {
 		},
 	]
 
-	const onChange = (key) => {
-		console.log(key)
-	}
-
 	return (
 		<section className={`section ${styles.section}`}>
 			<div className='container'>
 				<h1 className={styles.heading}>FAQs</h1>
-				<Collapse
-					defaultActiveKey={['1']}
-					onChange={onChange}
-					className={styles.collapse}
-				>
+				<Collapse defaultActiveKey={['1']} className={styles.collapse}>
 					{data.map(item =>
 						<Panel header={item.question} key={item.id}>
 							<p className={styles.paragraph}>{item.answer}</p>
