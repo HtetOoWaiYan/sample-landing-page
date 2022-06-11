@@ -4,11 +4,35 @@
 	align-items: center;
 	padding-top: 50px;
 }
+
 .container {
 	max-width: 1256px;
 	margin: auto;
 }
+
 .button {
 	width: 153px;
 	height: 54px !important;
+}
+
+@media (max-width: 576px) {
+	.content {
+		padding-top: 30px;
+	}
+}
+
+@media (max-width: 400px) {
+	.content {
+		padding-top: 20px;
+	}
+	.content > img {
+		width: 140px;
+		margin-right: 10px;
+	}
+	.button {
+		width: auto;
+		height: auto !important;
+		padding: 3% !important;
+		font-size: 1em;
+	}
 }

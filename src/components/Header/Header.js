@@ -12,9 +12,7 @@ const Header = () => {
 						type='primary'
 						size='large'
 						className={styles.button}
-					>
-						Request Demo
-					</Button>
+					>Request Demo</Button>
 				</div>
 			</div>
 		</header>

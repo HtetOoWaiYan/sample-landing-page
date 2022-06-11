@@ -28,7 +28,10 @@ const HeroSection = () => {
 						<p className={styles.footnote}>Coming soon on The App Store & Google Play Store</p>
 					</div>
 					<div className={styles.content_image}>
-						<img src='img/mockup/hero-min.png' className={styles.mockup_image}/>
+						<div className={styles.mockup_image}>
+							<img src='img/mockup/iphone-min.png' />
+							<img src='img/mockup/pixel-min.png' />
+						</div>
 						<img src='img/pattern/pattern-1.svg' className={styles.pattern_1}/>
 						<img src='img/pattern/pattern-2.svg' className={styles.pattern_2}/>
 						<img src='img/pattern/pattern-3.svg' className={styles.pattern_3}/>
