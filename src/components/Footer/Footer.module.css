@@ -1,0 +1,40 @@
+.section {
+	padding-bottom: 80px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content_group_logo, .content_group {
+	max-width: 186px;
+}
+.content_group_waitlist {
+	max-width: 367px;
+}
+
+.logo, .content_group > h4, .content_group_waitlist > h4 {
+	margin-bottom: 34px;
+}
+.logo {
+	padding: 5px 0 4px 0;
+}
+
+.content_group > h4, .content_group_waitlist > h4 {
+	font-size: 20px;
+	line-height: 28px;
+	color: #434343;
+}
+.subheading, .content_group > a, .content_group_waitlist > a {
+	font-size: 19px;
+	line-height: 35px;
+	color: #595959;
+}
+.subheading {
+	margin-bottom: 30px;
+}
+.content_group > a {
+	display: block;
+	margin-bottom: 12px;
+}
