@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Input } from 'antd'
+import { ArrowRightOutlined } from '@ant-design/icons'
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -33,7 +34,7 @@ const Footer = () => {
 								size='large'
 								addonAfter={<Button
 									type='link'
-									icon={<img src='img/arrow-right.svg'/>}
+									icon={<ArrowRightOutlined />}
 								/>}
 							/>
 						</form>

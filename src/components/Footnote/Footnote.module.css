@@ -1,0 +1,35 @@
+.section {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background: #531DAB;
+	opacity: 0.8;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.content_group_social > a {
+	color: #F0F0F0;
+}
+
+.content_group_text {
+	display: flex;
+	justify-content: space-between;
+	width: 551px;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.content_group_text > span, 
+.content_group_text > a {
+	color: #FAFAFA
+}
+
+.content_group_social a {
+	margin-right: 20px;
+	font-size: 28px;
+}

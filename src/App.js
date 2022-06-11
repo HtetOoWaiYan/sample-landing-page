@@ -5,6 +5,7 @@ import LibrarySection from './components/LibrarySection/LibrarySection'
 import FaqSection from './components/FaqSection/FaqSection'
 import RequestDemoCard from './components/RequestDemoCard/RequestDemoCard'
 import Footer from './components/Footer/Footer'
+import Footnote from './components/Footnote/Footnote'
 import './App.less'
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
 		<FaqSection />
 		<RequestDemoCard />
 		<Footer />
+		<Footnote />
 	</div>
 )
 
