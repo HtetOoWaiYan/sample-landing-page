@@ -37,7 +37,7 @@ const HeroSection = ({ requestDemoCardRef }) => {
 					</div>
 					<div className={styles.content_image}>
 						<div className={styles.content_image_mockups}>
-							<img src='img/mockup/iphone-min.png' alt='screenshot of book page' />
+							<img src='img/mockup/i-phone-min.png' alt='screenshot of book page' />
 							<img src='img/mockup/pixel-min.png' alt='screenshot of explore page' />
 						</div>
 						<img src='img/pattern/pattern-1.svg' className={styles.pattern_1}/>
