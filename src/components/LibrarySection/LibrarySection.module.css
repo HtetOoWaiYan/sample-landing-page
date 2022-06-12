@@ -49,6 +49,9 @@
 	margin-right: 30px !important;
 	background: none !important;
 }
+.book_list_card:last-child {
+	margin-right: 0 !important;
+}
 
 @media (max-width: 768px) {
 	.section {
