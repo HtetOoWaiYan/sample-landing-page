@@ -11,7 +11,7 @@ const FeatureSection = () => {
 						<img
 							src='img/mockup/player-min.jpg'
 							alt='screenshot of audio player'
-							className={styles.content_group_image}
+							className={styles.content_group_image_1}
 						/>
 						<div className={styles.content_group_1_text}>
 							<h1 className={styles.content_group_heading}>Distraction free audio player</h1>
@@ -28,7 +28,7 @@ const FeatureSection = () => {
 						<img
 							src='img/mockup/homepage-min.jpg'
 							alt='screenshot of app homepage'
-							className={styles.content_group_image}
+							className={styles.content_group_image_2}
 						/>
 					</div>
 				</div>
