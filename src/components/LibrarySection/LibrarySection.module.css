@@ -18,7 +18,7 @@
 	color: #391085;
 	font-size: 24px;
 	line-height: 32px;
-	margin-bottom: 61px;
+	margin-bottom: 60px;
 	opacity: 75%;
 	text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.3);
 }
@@ -48,4 +48,53 @@
 	width: 215px;
 	margin-right: 30px !important;
 	background: none !important;
+}
+
+@media (max-width: 768px) {
+	.section {
+		padding-bottom: 90px;
+	}
+	.shadow_left {
+		left: -10%;
+	}
+	.shadow_right {
+		right: -10%;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	.heading {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.subheading {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 40px;
+	}
+	.book_card {
+		width: 186px;
+	}
+	.shadow_left {
+		left: -20%;
+	}
+	.shadow_right {
+		right: -20%;
+	}
+}
+
+@media (max-width: 400px) {
+	.book_card {
+		width: 155px;
+	}
+	.shadow_left {
+		left: -32%;
+	}
+	.shadow_right {
+		right: -32%;
+	}
 }
