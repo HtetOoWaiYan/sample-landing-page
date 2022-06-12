@@ -1,8 +1,10 @@
-import React, { forwardRef }from 'react'
+import React, { useState, forwardRef }from 'react'
 import { Button, Input } from 'antd'
 import styles from './RequestDemoCard.module.css'
 
 const RequestDemoCard = (props, ref) => {
+	const [ email, setEmail ] = useState('')
+
 	return (
 		<section ref={ref} className={`section ${styles.section}`}>
 			<div className='container'>
@@ -13,6 +15,8 @@ const RequestDemoCard = (props, ref) => {
 						<Input
 							placeholder='Email'
 							size='large'
+							value={email}
+							onChange={(e) => setEmail(e.target.value)}
 							className={styles.input}
 						/>
 						<Button

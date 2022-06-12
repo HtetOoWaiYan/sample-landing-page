@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Input } from 'antd'
 import { ArrowRightOutlined } from '@ant-design/icons'
 import styles from './Footer.module.css'
 
 const Footer = () => {
+	const [ email, setEmail ] = useState('')
+
 	return (
 		<section className={`section ${styles.section}`}>
 			<div className='container'>
@@ -36,6 +38,8 @@ const Footer = () => {
 									type='link'
 									icon={<ArrowRightOutlined />}
 								/>}
+								value={email}
+								onChange={(e) => setEmail(e.target.value)}
 							/>
 						</form>
 					</div>

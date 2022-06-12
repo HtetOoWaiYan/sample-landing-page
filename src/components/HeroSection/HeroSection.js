@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../Header/Header'
 import { Button, Input } from 'antd'
 import styles from './HeroSection.module.css'
 
 const HeroSection = ({ requestDemoCardRef }) => {
+	const [ email, setEmail ] = useState('')
+
 	return (
 		<section className={`section ${styles.section}`}>
 			<Header requestDemoCardRef={requestDemoCardRef} />
@@ -16,6 +18,8 @@ const HeroSection = ({ requestDemoCardRef }) => {
 							<Input
 								placeholder='Email'
 								size='large'
+								value={email}
+								onChange={(e) => setEmail(e.target.value)}
 								className={styles.input}
 							/>
 							<Button
