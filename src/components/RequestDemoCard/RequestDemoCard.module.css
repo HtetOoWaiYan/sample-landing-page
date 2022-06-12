@@ -3,30 +3,29 @@
 }
 
 .content {
-	background: radial-gradient(176.74% 176.74% at 48.05% -52.08%, #F1CD8F 0%, #F1CD8F 23.96%, #F77A55 100%);
-	border-radius: 5px;
-	max-width: 950px;
-	margin: auto;
-	padding: 44px 61px 52px 61px;
-	position: relative;
 	overflow: hidden;
+	position: relative;
+	max-width: 950px;
+	padding: 44px 61px 52px 61px;
+	margin: auto;
+	border-radius: 5px;
+	background: radial-gradient(176.74% 176.74% at 48.05% -52.08%, #F1CD8F 0%, #F1CD8F 23.96%, #F77A55 100%);
 }
-
 .heading, .subheading {
 	opacity: 90%;
 }
 .heading {
+	margin-bottom: 14px;
 	font-size: 30px;
 	line-height: 38px;
 	color: var(--neutral-9);
-	margin-bottom: 14px;
 }
 .subheading {
+	margin-bottom: 39px;
 	font-size: 21px;
 	line-height: 29px;
 	color: var(--golden-purple-6);
 	text-shadow: 0px 4px 16px rgba(255, 255, 255, 0.3);
-	margin-bottom: 39px;
 }
 
 .form {
@@ -40,15 +39,14 @@
 	margin-right: 31px !important;
 }
 .button {
-	height: 100% !important;
 	width: 153px;
+	height: 100% !important;
 }
 
 .heading, .subheading, .form {
 	position: relative;
 	z-index: 1;
 }
-
 .pattern {
 	position: absolute;
 	width: 41%;
@@ -77,14 +75,14 @@
 		padding: 32px 33px 35px 35px;
 	}
 	.heading {
+		margin-bottom: 10px;
 		font-size: 28px;
 		line-height: 36px;
-		margin-bottom: 10px;
 	}
 	.subheading {
+		margin-bottom: 34px;
 		font-size: 18px;
 		line-height: 26px;
-		margin-bottom: 34px;
 	}
 	.button {
 		width: 133px;

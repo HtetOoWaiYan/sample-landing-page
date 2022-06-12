@@ -54,7 +54,7 @@ const LibrarySection = () => {
 				<h1 className={styles.heading}>Library</h1>
 				<p className={styles.subheading}>Great listens to get started</p>
 				<div className={styles.book_list_shadow}>
-					<img src='img/pattern/line.svg' className={styles.shadow_left} />
+					<img src='img/pattern/line.svg' className={styles.book_list_shadow_left} />
 					<div className={styles.book_list}>
 						{data.map(item =>
 							<Card
@@ -67,13 +67,13 @@ const LibrarySection = () => {
 								}
 								bordered={false}
 								bodyStyle={{ paddingTop: '19px', paddingLeft: '0' }}
-								className={styles.book_card}
+								className={styles.book_list_card}
 							>
 								<Meta title={item.title} description={item.author} />
 							</Card>
 						)}
 					</div>
-					<img src='img/pattern/line.svg' className={styles.shadow_right} />
+					<img src='img/pattern/line.svg' className={styles.book_list_shadow_right} />
 				</div>
 			</div>
 		</section>

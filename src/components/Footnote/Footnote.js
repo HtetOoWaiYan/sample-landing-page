@@ -1,5 +1,10 @@
 import React from 'react'
-import { FacebookFilled, TwitterSquareFilled, LinkedinFilled, MediumSquareFilled } from '@ant-design/icons'
+import {
+	FacebookFilled,
+	TwitterSquareFilled,
+	LinkedinFilled,
+	MediumSquareFilled
+} from '@ant-design/icons'
 import styles from './Footnote.module.css'
 
 const Footnote = () => {

@@ -13,7 +13,9 @@ const HeroSection = ({ requestDemoCardRef }) => {
 				<div className={styles.content}>
 					<div className={styles.content_text}>
 						<h1 className={styles.heading}>Modern audiobook experience</h1>
-						<p className={styles.subheading}>Listening audiobook has never been easier & more pleasurable.</p>
+						<p className={styles.subheading}>
+							Listening audiobook has never been easier & more pleasurable.
+						</p>
 						<form className={styles.form}>
 							<Input
 								placeholder='Email'
@@ -29,12 +31,14 @@ const HeroSection = ({ requestDemoCardRef }) => {
 								className={styles.button}
 							>Join Waitlist</Button>
 						</form>
-						<p className={styles.footnote}>Coming soon on The App Store & Google Play Store</p>
+						<p className={styles.footnote}>
+							Coming soon on The App Store & Google Play Store
+						</p>
 					</div>
 					<div className={styles.content_image}>
-						<div className={styles.mockup_image}>
-							<img src='img/mockup/iphone-min.png' />
-							<img src='img/mockup/pixel-min.png' />
+						<div className={styles.content_image_mockups}>
+							<img src='img/mockup/iphone-min.png' alt='screenshot of book page' />
+							<img src='img/mockup/pixel-min.png' alt='screenshot of explore page' />
 						</div>
 						<img src='img/pattern/pattern-1.svg' className={styles.pattern_1}/>
 						<img src='img/pattern/pattern-2.svg' className={styles.pattern_2}/>

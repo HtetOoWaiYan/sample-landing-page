@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.content_group_logo, .content_group {
+.content_group, .content_group_logo {
 	max-width: 186px;
 }
 .content_group_waitlist {

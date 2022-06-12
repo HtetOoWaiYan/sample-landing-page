@@ -1,8 +1,8 @@
 .section {
+	opacity: 0.8;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	background: var(--golden-purple-7);
-	opacity: 0.8;
 }
 
 .content {
@@ -13,6 +13,8 @@
 }
 
 .content_group_social > a {
+	margin-right: 20px;
+	font-size: 28px;
 	color: var(--neutral-4);
 }
 
@@ -23,15 +25,9 @@
 	font-size: 17px;
 	line-height: 25px;
 }
-
 .content_group_text > span, 
 .content_group_text > a {
 	color: var(--neutral-2);
-}
-
-.content_group_social a {
-	margin-right: 20px;
-	font-size: 28px;
 }
 
 @media (max-width: 992px) {

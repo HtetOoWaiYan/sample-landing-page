@@ -4,12 +4,6 @@
 	align-items: center;
 	padding-top: 50px;
 }
-
-.container {
-	max-width: 1256px;
-	margin: auto;
-}
-
 .button {
 	width: 153px;
 	height: 54px !important;
@@ -25,7 +19,7 @@
 	.content {
 		padding-top: 20px;
 	}
-	.content > img {
+	.logo {
 		width: 140px;
 		margin-right: 10px;
 	}

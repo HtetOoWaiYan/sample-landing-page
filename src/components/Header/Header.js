@@ -9,9 +9,9 @@ const Header = ({ requestDemoCardRef }) => {
 
 	return (
 		<header>
-			<div className={styles.container}>
+			<div className='container'>
 				<div className={styles.content}>
-					<img src='img/logo.svg' alt='audibooks-logo'/>
+					<img src='img/logo.svg' alt='audibooks logo' className={styles.logo} />
 					<Button
 						type='primary'
 						size='large'

@@ -14,15 +14,23 @@ const FeatureSection = () => {
 							className={styles.content_group_image_1}
 						/>
 						<div className={styles.content_group_1_text}>
-							<h1 className={styles.content_group_heading}>Distraction free audio player</h1>
-							<p className={styles.content_group_subheading}>Carefully designed user interface for distraction free listening experience.</p>
+							<h1 className={styles.content_group_heading}>
+								Distraction free audio player
+							</h1>
+							<p className={styles.content_group_subheading}>
+								Carefully designed user interface for distraction free listening experience.
+							</p>
 							<img src='img/pattern/dash.svg' />
 						</div>
 					</div>
 					<div className={styles.content_group}>
 						<div className={styles.content_group_2_text}>
-							<h1 className={styles.content_group_heading}>Personalized feed</h1>
-							<p className={styles.content_group_subheading}>Exclusively curated audiobook, audio magazines, and sleep & meditation audio entertainment.</p>
+							<h1 className={styles.content_group_heading}>
+								Personalized feed
+							</h1>
+							<p className={styles.content_group_subheading}>
+								Exclusively curated audiobook, audio magazines, and sleep & meditation audio entertainment.
+							</p>
 							<img src='img/pattern/dash.svg' />
 						</div>
 						<img
