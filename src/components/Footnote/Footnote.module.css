@@ -48,3 +48,13 @@
 		margin-bottom: 12px;
 	}
 }
+
+@media (max-width: 576px) {
+	.content_group_text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.content_group_text > a {
+		margin-bottom: 10px;
+	}
+}

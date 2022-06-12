@@ -122,18 +122,14 @@
 	}
 	.subheading {
 		margin-bottom: 70px;
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 21px;
+		line-height: 29px;
 	}
 	.form {
 		margin-bottom: 90px;
 	}
 	.input {
 		margin-right: 15px !important;
-	}
-	.footnote {
-		font-size: 16px;
-		line-height: 24px;
 	}
 	.content_image {
 		margin-right: -40%;
@@ -171,8 +167,16 @@
 		padding-top: 50px;
 		margin-right: 0;
 	}
+	.subheading {
+		font-size: 18px;
+		line-height: 26px;
+	}
 	.input {
 		margin-right: 15px !important;
+	}
+	.footnote {
+		font-size: 17px;
+		line-height: 25px;
 	}
 	.pattern_1 {
 		top: 5%;

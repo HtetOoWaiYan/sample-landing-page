@@ -56,13 +56,32 @@
 
 @media (max-width: 576px) {
 	.section {
-		padding-bottom: 70px;
+		padding-bottom: 60px;
 	}
 	.content_group_logo {
 		min-width: 100%;
 		margin-bottom: 10px;
 	}
-	.logo, .content_group {
+	.logo {
 		margin-bottom: 20px;
+	}
+	.logo,
+	.content_group > h4,
+	.content_group_waitlist > h4 {
+		margin-bottom: 24px;
+	}
+	.content_group {
+		margin-bottom: 30px;
+	}
+	.content_group > h4,
+	.content_group_waitlist > h4 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.subheading,
+	.content_group > a,
+	.content_group_waitlist > a {
+		font-size: 16px;
+		line-height: 24px;
 	}
 }

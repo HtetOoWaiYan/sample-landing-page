@@ -48,8 +48,8 @@
 }
 .content_group_subheading {
 	margin-bottom: 38px;
-	font-size: 23px;
-	line-height: 39px;
+	font-size: 22px;
+	line-height: 38px;
 }
 
 @media (max-width: 1200px) {
@@ -73,6 +73,13 @@
 	}
 	.content_group:first-child {
 		margin-bottom: 30px;
+	}
+	.content_group_heading {
+		font-size: 34px;
+		line-height: 42px;
+	}
+	.content_group_subheading {
+		font-size: 21px;
 	}
 	.content_group_1_text {
 		margin-left: 62px;
