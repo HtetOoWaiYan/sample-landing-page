@@ -29,3 +29,26 @@
 	font-size: 16px;
 	margin-bottom: 0;
 }
+
+@media (max-width: 1200px) {
+	.section {
+		padding-top: 90px;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.heading {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 400px) {
+	.section {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+}
