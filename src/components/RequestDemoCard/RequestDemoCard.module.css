@@ -1,4 +1,4 @@
-section {
+.section {
 	padding-bottom: 125px;
 }
 
@@ -33,7 +33,7 @@ section {
 	display: flex;
 	align-items: stretch;
 	height: 50px;
-	width: 551px;
+	max-width: 551px;
 }
 .input {
 	max-width: 66% !important;
@@ -51,7 +51,67 @@ section {
 
 .pattern {
 	position: absolute;
+	width: 41%;
 	top: -65%;
 	right: -10%;
 	z-index: 0;
+}
+
+@media (max-width: 768px) {
+	.content {
+		padding: 40px 35px 48px 35px;
+	}
+	.input {
+		margin-right: 15px !important;
+	}
+	.pattern {
+		top: -40%;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		padding-bottom: 90px;
+	}
+	.content {
+		padding: 32px 33px 35px 35px;
+	}
+	.heading {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 10px;
+	}
+	.subheading {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 34px;
+	}
+	.button {
+		width: 133px;
+	}
+}
+
+@media (max-width: 400px) {
+	.section {
+		padding-bottom: 60px;
+	}
+	.heading {
+		font-size: 25px;
+		line-height: 33px;
+	}
+	.form {
+		height: auto;
+		flex-direction: column;
+	}
+	.input {
+		max-width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+	.button {
+		width: 100%;
+	}
+	.pattern {
+		top: -20%;
+		right: -20%
+	}
 }
