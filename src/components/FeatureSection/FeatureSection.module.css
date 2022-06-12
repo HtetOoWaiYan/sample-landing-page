@@ -22,7 +22,7 @@
 }
 .content_group_image_1, .content_group_image_2 {
 	height: 658px;
-	border: 6px solid #722ED1;
+	border: 6px solid var(--golden-purple-5);
 	filter: drop-shadow(0px 16px 53px rgba(28, 28, 77, 0.22));
 	border-radius: 25px;
 }
@@ -40,7 +40,7 @@
 }
 .content_group_heading {
 	margin-bottom: 31px;
-	color: #391085;
+	color: var(--golden-purple-8);
 	font-weight: 500;
 	font-size: 38px;
 	line-height: 46px;

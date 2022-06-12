@@ -1,7 +1,7 @@
 .section {
 	padding-top: 22px;
 	padding-bottom: 22px;
-	background: #531DAB;
+	background: var(--golden-purple-7);
 	opacity: 0.8;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .content_group_social > a {
-	color: #F0F0F0;
+	color: var(--neutral-4);
 }
 
 .content_group_text {
@@ -26,7 +26,7 @@
 
 .content_group_text > span, 
 .content_group_text > a {
-	color: #FAFAFA
+	color: var(--neutral-2);
 }
 
 .content_group_social a {

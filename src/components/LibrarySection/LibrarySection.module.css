@@ -8,14 +8,14 @@
 	text-align: center;
 }
 .heading {
-	color: #22075E;
+	color: var(--golden-purple-8);
 	font-size: 38px;
 	line-height: 46px;
 	margin-bottom: 20px;
 	opacity: 85%;
 }
 .subheading {
-	color: #391085;
+	color: var(--golden-purple-8);
 	font-size: 24px;
 	line-height: 32px;
 	margin-bottom: 60px;

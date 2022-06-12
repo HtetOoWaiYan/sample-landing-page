@@ -24,12 +24,12 @@
 .content_group > h4, .content_group_waitlist > h4 {
 	font-size: 20px;
 	line-height: 28px;
-	color: #434343;
+	color: var(--neutral-9);
 }
 .subheading, .content_group > a, .content_group_waitlist > a {
 	font-size: 19px;
 	line-height: 35px;
-	color: #595959;
+	color: var(--neutral-8);
 }
 .subheading {
 	margin-bottom: 30px;

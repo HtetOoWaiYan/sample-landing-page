@@ -5,7 +5,7 @@ const FeatureSection = () => {
 	return (
 		<section className={`section ${styles.section}`}>
 			<div className='container'>
-				<h1 className={`heading ${styles.heading}`}>What we are proud of</h1>
+				<h1 className={styles.heading}>What we are proud of</h1>
 				<div className={styles.content}>
 					<div className={styles.content_group}>
 						<img

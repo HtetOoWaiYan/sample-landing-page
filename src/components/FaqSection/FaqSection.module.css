@@ -5,7 +5,6 @@
 
 .heading {
 	text-align: center;
-	color: #262626;
 	font-size: 38px;
 	line-height: 46px;
 	margin-bottom: 60px;
@@ -20,7 +19,7 @@
 	font-size: 18px !important;
 }
 .collapse [class="ant-collapse-expand-icon"] {
-	color: #9254DE;
+	color: var(--golden-purple-5);
 }
 .collapse [class="ant-collapse-expand-icon"] span {
 	font-size: 14px !important;
