@@ -38,3 +38,31 @@
 	display: block;
 	margin-bottom: 12px;
 }
+
+@media (max-width: 1200px) {
+	.content_group {
+		min-width: 123px;
+	}
+}
+
+@media (max-width: 992px) {
+	.content_group_logo {
+		min-width: 183px;
+	}
+	.content_group {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.section {
+		padding-bottom: 70px;
+	}
+	.content_group_logo {
+		min-width: 100%;
+		margin-bottom: 10px;
+	}
+	.logo, .content_group {
+		margin-bottom: 20px;
+	}
+}
