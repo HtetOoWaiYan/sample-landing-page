@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import HeroSection from './components/HeroSection/HeroSection'
 import FeatureSection from './components/FeatureSection/FeatureSection'
 import LibrarySection from './components/LibrarySection/LibrarySection'
@@ -8,16 +8,20 @@ import Footer from './components/Footer/Footer'
 import Footnote from './components/Footnote/Footnote'
 import './App.less'
 
-const App = () => (
-	<div>
-		<HeroSection />
-		<FeatureSection />
-		<LibrarySection />
-		<FaqSection />
-		<RequestDemoCard />
-		<Footer />
-		<Footnote />
-	</div>
-)
+const App = () => {
+	const requestDemoCardRef = useRef(null)
+
+	return (
+		<div>
+			<HeroSection requestDemoCardRef={requestDemoCardRef} />
+			<FeatureSection />
+			<LibrarySection />
+			<FaqSection />
+			<RequestDemoCard ref={requestDemoCardRef} />
+			<Footer />
+			<Footnote />
+		</div>
+	)
+}
 
 export default App

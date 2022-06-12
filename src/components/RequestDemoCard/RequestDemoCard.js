@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { forwardRef }from 'react'
 import { Button, Input } from 'antd'
 import styles from './RequestDemoCard.module.css'
 
-const RequestDemoCard = () => {
+const RequestDemoCard = (props, ref) => {
 	return (
-		<section className={`section ${styles.section}`}>
+		<section ref={ref} className={`section ${styles.section}`}>
 			<div className='container'>
 				<div className={styles.content}>
 					<h1 className={styles.heading}>Feeling intrigued?</h1>
@@ -28,4 +28,4 @@ const RequestDemoCard = () => {
 	)
 }
 
-export default RequestDemoCard
+export default forwardRef(RequestDemoCard)

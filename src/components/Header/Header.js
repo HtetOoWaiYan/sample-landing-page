@@ -2,7 +2,11 @@ import React from 'react'
 import { Button } from 'antd'
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = ({ requestDemoCardRef }) => {
+	const handleButtonClick = () => {
+		requestDemoCardRef.current.scrollIntoView({ behavior: 'smooth' })
+	}
+
 	return (
 		<header>
 			<div className={styles.container}>
@@ -11,6 +15,7 @@ const Header = () => {
 					<Button
 						type='primary'
 						size='large'
+						onClick={handleButtonClick}
 						className={styles.button}
 					>Request Demo</Button>
 				</div>

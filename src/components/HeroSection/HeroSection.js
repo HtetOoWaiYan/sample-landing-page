@@ -3,10 +3,10 @@ import Header from '../Header/Header'
 import { Button, Input } from 'antd'
 import styles from './HeroSection.module.css'
 
-const HeroSection = () => {
+const HeroSection = ({ requestDemoCardRef }) => {
 	return (
 		<section className={`section ${styles.section}`}>
-			<Header />
+			<Header requestDemoCardRef={requestDemoCardRef} />
 			<div className='container'>
 				<div className={styles.content}>
 					<div className={styles.content_text}>
